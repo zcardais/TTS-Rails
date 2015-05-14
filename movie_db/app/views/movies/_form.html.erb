@@ -27,6 +27,10 @@
     <%= f.label :actor_id %><br>
     <%= f.collection_select :actor_id, Actor.all, :id, :name %>
   </div>
+<div class="field">
+  <%= f.label :tmeter %><br>
+  <%= f.text_area :tmeter %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

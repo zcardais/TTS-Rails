@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150512131920) do
+ActiveRecord::Schema.define(version: 20150514150542) do
 
   create_table "actors", force: true do |t|
     t.string   "name"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20150512131920) do
     t.integer  "actor_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "tmeter"
   end
 
 end
