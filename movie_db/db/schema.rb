@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150514150542) do
+ActiveRecord::Schema.define(version: 20150516154347) do
 
   create_table "actors", force: true do |t|
     t.string   "name"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 20150514150542) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "tmeter"
+    t.string   "poster"
   end
 
 end
